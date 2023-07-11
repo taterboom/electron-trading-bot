@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {}
+  },
+  "include": [
+    "electron-src/**/*",
+    "service/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
